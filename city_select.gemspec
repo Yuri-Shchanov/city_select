@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = CitySelect::VERSION
   s.authors     = ["Yuri Shchanov"]
   s.email       = ["y.shchanov@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/Yuri-Shchanov/city_select"
   s.summary     = "Gem for selecting country, region and city."
   s.description = "Gem for selecting country, region and city."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.1"
+  s.add_dependency "rails", "4.2.7"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "pg"
 end
